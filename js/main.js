@@ -1,4 +1,10 @@
 $(function(){
+    const params = new URLSearchParams(window.location.search);
+    const isEmbed = params.has('embed');
+    
+    if (isEmbed) {
+      document.body.classList.add('embed');
+    }
     init()
     console.log("Main loaded");
 });

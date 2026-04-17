@@ -1,3 +1,22 @@
+body.embed #bottomBanner,
+body.embed .banner {
+  display: none !important;
+  height: 0 !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  position: static !important;
+}
+
+body.embed #main {
+  margin-bottom: 0 !important;
+  padding-bottom: 0 !important;
+}
+
+body.embed, 
+body.embed html {
+  min-height: auto !important;
+  height: auto !important;
+}
 .mainText {
 	font-family: Verdana, sans-serif;
 	font-size: 14;
